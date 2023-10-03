@@ -1,0 +1,13 @@
+{
+  "name": "dc40fad2-5cfa-4d96-8226-009cda4dbcaf",
+  "displayName": "dateoftravel",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "968db77e-9b50-463f-ae6c-ebcbc9d27c98",
+  "displayName": "others",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$session.params.destination_type" ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

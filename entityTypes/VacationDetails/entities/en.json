@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "origin",
+    "synonyms": [ "origin", "source", "starting from", "trip start" ],
+    "languageCode": "en"
+  }, {
+    "value": "destination",
+    "synonyms": [ "destination", "trip end" ],
+    "languageCode": "en"
+  }, {
+    "value": "duration",
+    "synonyms": [ "duration", "number of days", "trip duration" ],
+    "languageCode": "en"
+  } ]
+}

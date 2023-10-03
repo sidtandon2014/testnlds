@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "family",
+    "synonyms": [ "family", "kids", "wife", "spouse" ],
+    "languageCode": "en"
+  }, {
+    "value": "romantic",
+    "synonyms": [ "romantic" ],
+    "languageCode": "en"
+  }, {
+    "value": "adventure",
+    "synonyms": [ "adventure", "para gliding", "skiing" ],
+    "languageCode": "en"
+  } ]
+}

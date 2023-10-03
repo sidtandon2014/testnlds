@@ -1,0 +1,17 @@
+{
+  "name": "078fc567-42f0-4c92-93ab-62185721db22",
+  "displayName": "Destination Planning",
+  "placeholders": [ {
+    "id": "detected_destination_type",
+    "name": "detected_destination_type"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

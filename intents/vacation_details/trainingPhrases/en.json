@@ -1,0 +1,61 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "want to go to ",
+      "auto": true
+    }, {
+      "text": "LAs Vegas",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "will be ",
+      "auto": true
+    }, {
+      "text": "starting from",
+      "parameterId": "VacationDetails",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "seattle",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "planning to go ",
+      "auto": true
+    }, {
+      "text": "next week",
+      "parameterId": "date-period",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "want to go to "
+    }, {
+      "text": "mountains",
+      "parameterId": "VacationDetails"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "wan to go to "
+    }, {
+      "text": "beach",
+      "parameterId": "VacationDetails"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

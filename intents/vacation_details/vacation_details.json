@@ -1,0 +1,16 @@
+{
+  "name": "088fcd7b-a9ef-477f-96e3-84915a135534",
+  "displayName": "vacation_details",
+  "parameters": [ {
+    "id": "VacationDetails",
+    "entityType": "@VacationDetails"
+  }, {
+    "id": "date-period",
+    "entityType": "@sys.date-period"
+  }, {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

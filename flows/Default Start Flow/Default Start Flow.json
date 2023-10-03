@@ -1,0 +1,105 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "87f9faa6-cfe6-4ff9-8c37-c0615adceb8d"
+  }, {
+    "intent": "Talk to agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I will forward you to an agent." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "ujet": {
+            "action": "escalation",
+            "escalation_reason": "by_customer",
+            "type": "action"
+          }
+        },
+        "languageCode": "en"
+      }, {
+        "liveAgentHandoff": {
+          "metadata": {
+            "ujet": {
+              "action": "escalation",
+              "escalation_reason": "by_customer",
+              "type": "action"
+            }
+          }
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "ed96e81d-d381-4af5-886f-02105f3681df"
+  }, {
+    "intent": "destination_search",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Destination Search1",
+    "name": "fc5c3820-63b9-4239-8cde-b16ef9165115"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "a980a20e-ec7c-4d71-868e-687f9c8001f6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1926a7d5-f1c7-4f4c-85bc-bb4f42f5bbe7"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.40000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      }, {
+        "languageCode": "en",
+        "knowledgeInfoCard": {
+        
+        }
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "PUBLIC_WEB",
+      "dataStore": "projects/890455752524/locations/global/collections/default_collection/dataStores/alaska-websites_1695804620564"
+    } ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "c0f481ea-3453-4225-952b-8d5c56a970cc",
+  "displayName": "destination_search",
+  "parameters": [ {
+    "id": "date-period",
+    "entityType": "@sys.date-period"
+  }, {
+    "id": "DestinationType",
+    "entityType": "@DestinationType"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}
