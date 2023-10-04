@@ -12,7 +12,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "87f9faa6-cfe6-4ff9-8c37-c0615adceb8d"
+    "name": "d759cc6b-64dc-48b4-b032-20379b8cf91c"
   }, {
     "intent": "Talk to agent",
     "triggerFulfillment": {
@@ -44,14 +44,7 @@
       } ]
     },
     "targetPage": "End Session",
-    "name": "ed96e81d-d381-4af5-886f-02105f3681df"
-  }, {
-    "intent": "destination_search",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "Destination Search1",
-    "name": "fc5c3820-63b9-4239-8cde-b16ef9165115"
+    "name": "3b0c5539-95bb-490e-8449-20cb198046dc"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -64,7 +57,7 @@
       } ],
       "enableGenerativeFallback": true
     },
-    "name": "a980a20e-ec7c-4d71-868e-687f9c8001f6"
+    "name": "2fb15889-b5f6-4f52-be65-e0469e4588ac"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -75,12 +68,11 @@
         "languageCode": "en"
       } ]
     },
-    "name": "1926a7d5-f1c7-4f4c-85bc-bb4f42f5bbe7"
+    "name": "6011901a-96de-4b69-968e-3cccc8f15824"
   } ],
   "nluSettings": {
-    "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.40000001,
-    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.69999999
   },
   "knowledgeConnectorSettings": {
     "enabled": true,
@@ -98,8 +90,8 @@
       } ]
     },
     "dataStoreConnections": [ {
-      "dataStoreType": "PUBLIC_WEB",
-      "dataStore": "projects/890455752524/locations/global/collections/default_collection/dataStores/alaska-websites_1695804620564"
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/347883506482/locations/global/collections/default_collection/dataStores/qa_1696403456363"
     } ]
   }
 }

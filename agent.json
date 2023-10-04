@@ -1,46 +1,14 @@
 {
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
-  "projectNumber": 890455752524,
-  "speechToTextSettings": {
-  
-  },
+  "projectNumber": 347883506482,
   "startFlow": "Default Start Flow",
   "advancedSettings": {
-    "enabled": true,
-    "audioExportGcsDestination": {
-    
-    },
-    "speechSettings": {
-      "endpointerSensitivity": 90,
-      "noSpeechTimeout": {
-        "seconds": 5
-      },
-      "models": [ {
-        "key": "en",
-        "value": "default"
-      } ]
-    },
-    "playbackInterruptionSettings": {
-    
-    },
     "loggingSettings": {
     
     }
   },
-  "speakerIdSettings": {
-  
-  },
-  "textToSpeechSettings": {
-  
-  },
   "genAppBuilderSettings": {
-    "engine": "projects/890455752524/locations/global/collections/default_collection/engines/nlds_1695804783598"
-  },
-  "duplexSettings": {
-  
-  },
-  "answerFeedbackSettings": {
-  
+    "engine": "projects/347883506482/locations/global/collections/default_collection/engines/qa_1696403438643"
   }
 }
